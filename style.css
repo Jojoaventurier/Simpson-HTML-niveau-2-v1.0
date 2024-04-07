@@ -34,30 +34,18 @@ h2{
 }
 
 nav{
-    background-color: rgb(47,100,214);
+    background-color: rgb(47,100,214);  
 }
-/*
-.dashed:before {
-    content: "";
-    position: absolute;
-    border: 10px dashed #FF0000;
-    top: -8px;
-    bottom: -8px;
-    left: -8px;
-    right: -8px;
-  }
 
-  .dashed {
-    overflow: hidden;
-    position: relative;
-  
-  
-    text-align:center;
-    padding:10px;
-    margin-bottom:20px;
-  }
-  
-*/
+#dashed{
+    background-color:rgb(47,100,214); 
+    padding: 3px;
+    background-image: repeating-linear-gradient(0deg, rgb(47,100,214), rgb(47,100,214) 10px, transparent 10px, transparent 21px, #ffffff 21px), repeating-linear-gradient(90deg, rgb(47,100,214), rgb(47,100,214) 10px, transparent 10px, transparent 21px, #ffffff 21px), repeating-linear-gradient(180deg, rgb(47,100,214), rgb(47,100,214) 10px, transparent 10px, transparent 21px, #ffffff 21px), repeating-linear-gradient(270deg, #ffffff, #ffffff 10px, transparent 10px, transparent 21px, #ffffff 21px);
+    background-size: 3px 100%, 100% 3px, 3px 100% , 100% 3px;
+    background-position: 0 0, 0 0, 100% 0, 0 100%;
+    background-repeat: no-repeat; 
+}
+
 ul{
     text-align: center;
     list-style-type: none;
@@ -177,15 +165,15 @@ section{
 #containerParent{
     padding: 20px 0;
     width: 95%;
-    overflow: hidden;
+    overflow: hidden; 
 }
 p{
     padding: 0 25px;
     text-align:justify;
-}
+} 
 .hide {
     visibility: hidden;
-}
+} 
 aside{
     text-align: center;
     width: 100%;
@@ -220,7 +208,7 @@ section{
 #containerParent{
     padding: 20px 0;
     width: 95%;
-    overflow: hidden;
+    overflow: hidden; 
 }
 p{
     padding: 0 25px;
