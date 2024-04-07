@@ -171,19 +171,61 @@ h1{
 section{
     flex-direction: column;
     padding: 0;
+    align-items: center;
+    justify-content: space-evenly;
 }
 #containerParent{
-    padding: 20px 0;;
+    padding: 20px 0;
+    width: 95%;
 }
 p{
     padding: 0 25px;
     text-align:justify;
 }
-
 .hide {
     visibility: hidden;
 }
 aside{
     text-align: center;
+    width: 100%;
+}
+}
+
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+
+#wrapper{
+    width: 100%;
+    padding: 0;
+}
+h2{
+    font-size: x-large;
+}
+h1{
+    text-align: center;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 20px;
+}
+
+section{
+    flex-direction: column;
+    padding: 0;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#containerParent{
+    padding: 20px 0;
+    width: 95%;
+}
+p{
+    padding: 0 25px;
+    text-align:justify;
+}
+aside{
+    text-align: center;
+    width: 100%;
 }
 }
