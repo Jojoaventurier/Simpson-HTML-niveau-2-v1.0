@@ -170,13 +170,14 @@ h1{
 
 section{
     flex-direction: column;
-    padding: 0;
+    padding: 0 0;
     align-items: center;
     justify-content: space-evenly;
 }
 #containerParent{
     padding: 20px 0;
     width: 95%;
+    overflow: hidden;
 }
 p{
     padding: 0 25px;
@@ -219,6 +220,7 @@ section{
 #containerParent{
     padding: 20px 0;
     width: 95%;
+    overflow: hidden;
 }
 p{
     padding: 0 25px;
