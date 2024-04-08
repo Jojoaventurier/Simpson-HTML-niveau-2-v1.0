@@ -62,18 +62,16 @@ a{
     text-decoration: none;
 }
 
-h1{
-    background-color: white;
-    padding-left: 20px;
-    padding-top: 20px;
-    color: rgb(248,219,39); /* or use : rgb(255, 225, 52)*/
-}
-
-section{
+main{
     background-color: white;
     padding: 20px 20px;
     display: flex;
     flex-wrap: nowrap;
+}
+
+h1{
+   padding: 10px 0;
+    color: rgb(248,219,39); /* or use : rgb(255, 225, 52)*/
 }
 
 #containerParent{
@@ -90,7 +88,7 @@ justify-content: center;
 
 #texte-1{
     text-align: justify;
-    margin-bottom: 20px;
+    margin: 15px 0;
 }
 
 #homer{
@@ -102,6 +100,7 @@ aside{
     background-color: rgb(47,100,214); /*or use: rgb(62, 112, 219) */
     padding: 15px;
     height: min-content;
+    margin-top: 69px;
 }
 
 #matt-groening{
@@ -156,7 +155,7 @@ h1{
     padding-top: 20px;
 }
 
-section{
+main{
     flex-wrap:wrap;
     flex-direction: column;
     padding: 0 0;
@@ -164,20 +163,21 @@ section{
     justify-content: space-evenly;
 }
 #containerParent{
-    padding: 20px 0;
+    padding: 10px 0;
     width: 95%;
-    overflow: hidden; 
 }
 p{
     padding: 0 25px;
     text-align:justify;
 } 
-.hide {
-    visibility: hidden;
-} 
+#containerChild{
+    flex-direction: column;
+    align-items: center;
+}
 aside{
     text-align: center;
     width: 100%;
+    margin: 0 0;
 }
 }
 
@@ -200,7 +200,7 @@ h1{
     padding-top: 20px;
 }
 
-section{
+main{
     flex-wrap:wrap;
     flex-direction: column;
     padding: 0;
@@ -210,7 +210,6 @@ section{
 #containerParent{
     padding: 20px 0;
     width: 95%;
-    overflow: hidden; 
 }
 p{
     padding: 0 25px;
@@ -219,5 +218,6 @@ p{
 aside{
     text-align: center;
     width: 100%;
+    margin: 0 0;
 }
 }
