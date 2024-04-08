@@ -94,6 +94,8 @@ justify-content: center;
 #homer{
     border: solid 1px grey;
     margin: 0 4px;
+    height: 300px;
+    width: 300px;
 }
 
 aside{
@@ -174,6 +176,10 @@ p{
     flex-direction: column;
     align-items: center;
 }
+#homer{
+    height: 150px;
+    width: 150px;
+}
 aside{
     text-align: center;
     width: 100%;
@@ -215,6 +221,12 @@ p{
     padding: 0 25px;
     text-align:justify;
 }
+
+#homer{
+    height: 200px;
+    width: 200px;
+}
+
 aside{
     text-align: center;
     width: 100%;
